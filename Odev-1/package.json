@@ -1,0 +1,16 @@
+{
+  "name": "odev-1",
+  "version": "1.0.0",
+  "description": "odev 1",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Mehmet Aydar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
