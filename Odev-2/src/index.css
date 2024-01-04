@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9c9c9c;
+}
+
+h1 {
+  color: #961a9b;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+form input {
+  border: 0;
+  outline: 0;
+  padding: 0.875rem 1.5rem;
+  width: 25rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1120px;
+  margin: 3rem auto;
+  background: #ccc;
+  border-radius: 3px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #961a9b;
+  color: #fff;
+  width: 25rem;
+  margin: 0.5rem auto 2rem;
+  border-radius: 0.5rem;
+}
+
+.list {
+  border-bottom: 1px solid #fff;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.list > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.list > div > input {
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  font-size: 1.4rem;
+}
